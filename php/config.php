@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$servername = "ec2-3-16-123-214.us-east-2.compute.amazonaws.com";
+$servername = "serverName";
 $username = "root";
-$database = "a752378";
-$password = "Senha@123";
+$database = "serverUsername";
+$password = "serverPassword";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 if(!$conn){
