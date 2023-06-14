@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Página de login</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="form-group">
+            <h3>Aparentemente você já possui um cadastro, informe seu login e senha</h3>
+            <form name="doLogin" action="php/processaLogin.php" method="POST">
+                <labe>Login</label>
+                <input class="form-control" type="text" name="login" placeholder="Login" required>
+                <label>Senha</label>
+                <input class="form-control"type="password" name="loginPassword" placeholder="Senha" required>
+                <button class="btn btn-primary" type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <p>Caso tenha esquecido a senha, contate o administrador do sistema <a href="mailto:leonardofebba@hotmail.com"> clicando aqui</a></p>
+    </div>
+</body>
+</html>
+
