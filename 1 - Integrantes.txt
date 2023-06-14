@@ -1,9 +1,0 @@
-Projeto desenvolvido por: 
-
-Allan Felipe Sales Menezes - RA: 750280
-Gabriel Borges Gaba - RA: 750116
-Leonardo Febba Peterka - RA: 752378
-Lucas Rodrigues Souza de Jesus - RA: 750638
-Raul Guimarães dos Santos - RA: 749795
-
-OBS: Não  há o campo "VALOR" para ser adicionado no banco de dados, pois, porque o pojeto proposto foi uma Biblioteca, e não uma Livraria.
